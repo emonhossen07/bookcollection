@@ -1,0 +1,362 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* 
+=============================
+header section css start here 
+=============================
+
+    background: rgba(63, 61, 86, 0.4);
+*/
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 80px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+header .brand-name {
+    font-size: 34px;
+    font-weight: bold;
+    color: #fff;
+    flex: 1;
+    cursor: pointer;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+header ul li a {
+    color: #fff;
+    margin-left: 15px;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 35px;
+    padding: 8px 24px;
+    font-weight: bold;
+}
+header nav ul li:nth-child(3) {
+    background-color: #3F3D56;
+    border-radius: 8px;
+    border: 2px solid #f3f3f4;
+}
+/*
+===========================
+header section css end here 
+===========================
+*/
+
+/* 
+===========================
+hero section css start here 
+===========================
+*/
+
+.container-hero {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #0b090a;
+}
+.container-hero .container-hero-content {
+    flex: 1;
+    flex-wrap: wrap;
+    align-self: center;
+    padding-left: 80px;
+}
+.container-hero .container-hero-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #f3f3f4;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.container-hero .container-hero-content h1 {
+    font-size: 38px;
+    font-weight: 600;
+    line-height: 68px;
+    color: #f3f3f4;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+.container-hero .container-hero-content p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #f3f3f4;
+    margin-bottom: 20px;
+}
+.container-hero .container-hero-content button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #f3f3f4;
+    background-color: #3F3D56;
+    padding: 8px 24px;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 2px solid #f3f3f4;
+    cursor: pointer;
+}
+.container-hero .container-hero-content button  a{
+    text-decoration: none;
+    color: #f3f3f4;
+}
+.container-hero .container-hero-img {
+    flex: 1;
+    flex-wrap: wrap;
+    align-self: center;
+    padding-right: 80px;
+}
+.container-hero .container-hero-img img {
+    width: 100%;
+}
+
+/* 
+===========================
+hero section css start here 
+===========================
+*/
+.container-hero {
+    background: linear-gradient(rgba(63, 61, 86, 1), rgba(63, 61, 86, 0.4)), url(../img/checkout-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+.container-hero .container-hero-content h2 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+}
+.container-conllection-heading {
+    width: 50%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.container-conllection-heading h3 {
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+    color: #f3f3f4;
+    margin: auto;
+}
+
+/* 
+=================================
+collection section css start here 
+=================================
+*/
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    gap: 30px;
+    background: #161A1D;
+    flex-direction: row;
+}
+.container .container-form {
+    flex: 3;
+    border: 1px solid #9e9cc2;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.container .container-form form {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    color: #9e9cc2;
+    margin-top: 30px;
+    line-height: 44px;
+}
+.container .container-form input  {
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 10px 4px;
+    background: #2E2F3E;
+    border-bottom: 3px solid #9e9cc2;
+    border-right: 0px;
+    border-top: 0px;
+    border-left: 0px;
+}
+.container .container-form input::placeholder {
+    color: #9e9cc2;
+    font-size: 12px;
+}
+.container .container-form form button {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #f3f3f4;
+    background-color: #3F3D56;
+    padding: 8px 24px;
+    text-decoration: none;
+    border: 2px solid #f3f3f4;
+    cursor: pointer;
+}
+.container .container-form form button  a{
+    text-decoration: none;
+    color: #f3f3f4;
+}
+.collection-book-1{
+    flex: 1;
+    border: 2px solid #9e9cc2;
+    flex-wrap: wrap;
+    align-self: start !important;
+}
+.collection-book-1 .collection-book-img img {
+    width: 100%;
+}
+.collection-book-1 .collection-book-content {
+    padding: 10px;
+    border: 2px solid #3F3D56;
+    margin: 8px;
+    border-radius: 8px;
+    transition: 0.5s;
+}
+.collection-book-1 .collection-book-content:hover {
+    background-color: #3f3d5695;
+    transition: 0.5s;
+}
+.collection-book-1 .collection-book-content h5 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #f3f3f4;
+    margin-top: 15px;
+}
+.collection-book-1 .collection-book-content h6 {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f3f3f4;
+    background-color: #3F3D56;
+    padding: 4px;
+    margin-top: 15px;
+    display: inline-block;
+}
+.collection-book-1 .collection-book-content  p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #f3f3f4;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* 
+=============================
+footer section css start here 
+=============================
+*/
+
+footer {
+    background: #3F3D56;
+    height: 80px;
+    text-align: center;
+}
+footer p {
+    line-height: 80px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #f3f3f4;
+}
+
+/* 
+===========================
+footer section css end here 
+===========================
+*/
+
+
+
+
+/* 
+============================
+mobile responsive start here 
+============================
+*/
+
+@media ( max-width: 767px) {
+    /* |||||||||  header section   ||||||||| */
+    header {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 6px 10px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+      header .brand-name {
+        font-size: 20px;
+        font-weight: blod;
+        color: #fff;
+      }
+      header ul li a {
+        color: #fff;
+        margin-left: 10px;
+        margin-right: 10px;
+        text-decoration: none;
+        font-size: 12px;
+        line-height: 35px;
+        padding: 2px 4px;
+        font-weight: bold;
+      }
+      .container-hero {
+        height: 35vh;
+      }
+      .container-hero .container-hero-content {
+        flex: 1;
+        flex-wrap: wrap;
+        align-self: center;
+        padding-left: 10px;
+      }
+      .container-hero .container-hero-content h2 {
+        font-size: 24px;
+        font-weight: 600;
+        color: #fff;
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: normal;
+        justify-content: none;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        gap: 30px;
+        background: #161A1D;
+        flex-flow: row;
+          flex-direction: row;
+        flex-direction: column;
+      }
+      footer p {
+        line-height: 80px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #f3f3f4;
+      }
+
+    }      
